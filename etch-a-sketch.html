@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Etch-a-Sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+</head>
+<main>
+    <body>
+        <div class="container">
+            <p class="title">Etch-a-Sketch</p>
+            <div class="buttonGroup">
+                <div>
+                    <input type="color" id="colorPicker" value="#333333">
+                    <div class="pen">Pen Color</div>
+                </div>
+                <div>
+                    <button id="reset">Reset </button>
+                </div>
+                <div> 
+                    <output class="numberGrid-output" for="numberGrid">
+                    </output>
+                    <input type="range" name="numberGrid" id="numberGrid" min="8" max="64" step="4" value="16">
+                    
+                </div>
+            </div>
+            <div id="gridContainer"></div>
+        </div>
+        
+    
+    
+    </body>
+</main>
+<script src="script.js"></script> 
+
+
+</html>
